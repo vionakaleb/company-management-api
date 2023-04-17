@@ -4,6 +4,6 @@
 
 #### 2. Run these scripts:
 
-### npm run create
+#### npm run create
 
-### npm run start
+#### npm run start
