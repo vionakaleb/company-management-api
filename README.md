@@ -1,8 +1,8 @@
 # company-management-api
 
-### First, create database just like in env.
+#### 1. Create database just like in env.
 
-### Then run these scripts:
+#### 2. Run these scripts:
 
 ### npm run create
 
