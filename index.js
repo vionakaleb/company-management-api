@@ -1,9 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+require("dotenv").config();
+
 const app = express();
-const port = 3000;
-const queryCompany = require('./query/company');
-const queryOffice = require('./query/office');
+const port = process.env.API_PORT;
+const queryCompany = require('./services/company');
+const queryOffice = require('./services/office');
+
+// const db = require('services/tableCreate.js');
 
 app.use(bodyParser.json())
 app.use(
